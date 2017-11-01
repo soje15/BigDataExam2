@@ -14,6 +14,11 @@
 %Allows for different colors in report
 \usepackage{color}
 \usepackage[dvipsnames, table, xcdraw]{xcolor}
+\usepackage{tabu}
+\usepackage{dcolumn}
+\newcolumntype{A}{D{.}{.}{2.3}}
+
+
 
 %Setup allows for clickable ToC with different colors
 \usepackage{hyperref}
@@ -234,28 +239,34 @@ Testing git
 %Methodology start
 
 \section{Methodology}
-Insert introduction to the methodology section of the report
+To answer the research questions two different types of analysis is presented
+
+Furthermore,  the CRISP framework has been used in a modified fashion, in order to better illustrate the context of this research paper.
+The model serves to illustrate how the data was processed throughout the proejct in order to yield a final result/answer to the resarch questions. The model is iterative and serves to explore the Twitter data, so a better
+understanding of the data can be reached. This process has been conciously iterated throughout the project.
+
+"Business understanding" is in this context the overall problem formulation and research questions that we wish answered.
+
 
 
 \begin{table}[H]
-\centering
-\caption{My caption}
-\label{my-label}
-\begin{tabular}{|
->{\columncolor[HTML]{FFFFFF}}l |
->{\columncolor[HTML]{FFFFFF}}l |
->{\columncolor[HTML]{FFFFFF}}l |
->{\columncolor[HTML]{FFFFFF}}l |
->{\columncolor[HTML]{FFFFFF}}l |}
-\hline
-{\color[HTML]{000000} \textbf{Hej}} & {\color[HTML]{000000} dsa} & {\color[HTML]{000000} dasdsad} & {\color[HTML]{000000} asdasd} & {\color[HTML]{000000} asdsa} \\ \hline
-{\color[HTML]{000000} \textbf{asd}} & {\color[HTML]{000000} dsfdsfs} & {\color[HTML]{000000} adsad} & {\color[HTML]{000000} asdasd} & {\color[HTML]{000000} asd} \\ \hline
-{\color[HTML]{000000} \textbf{asdad}} & {\color[HTML]{000000} xcvx} & {\color[HTML]{000000} sadada} & {\color[HTML]{000000} asdaa} & {\color[HTML]{000000} sa} \\ \hline
-{\color[HTML]{000000} \textbf{adsada}} & {\color[HTML]{000000} sad} & {\color[HTML]{000000} dasd} & {\color[HTML]{000000} ada} & {\color[HTML]{000000} dasd} \\ \hline
-\end{tabular}
-\end{table}
-
-
+  \centering
+  \caption{Distribution of Number of Injured Non-Motorists by Injury Severity Level}
+    \extrarowsep=_3pt^3pt
+     \begin{tabu}to\linewidth{|[2pt gray]r|c|A|c|A|c|A|[1.5pt gray]}
+    \tabucline[1.5pt gray]-
+    \bfseries Injury Severity  & \multicolumn{2}{c|}{\textbf{Pedestrian}} & \multicolumn{2}{c|}{\textbf{Bicyclist}} & \multicolumn{2}{c|[1.5pt gray]}{\textbf{All Non-Motorists}} \\
+    \tabucline[1.5pt gray]-
+    Possible injury & 1700  & 67.70\% & 502   & 59.40\% & 2202  & 65.60\% \\
+    Non-Incapacitating injury & 523   & 20.80\% & 259   & 30.70\% & 782   & 23.30\% \\\hline
+    Incapacitating injury & 250   & 10.00\% & 84    & 9.90\% & 334   & 9.90\% \\\hline
+    Fatal injury & 39    & 1.50\% & 0     & 0.00\% & 39    & 1.20\% \\
+    \tabucline[1.5pt gray]-
+    \bfseries Total & \bfseries 2512 & \multicolumn{1}{c|}{\bfseries 100.00\%} & \bfseries 845 & \multicolumn{1}{c|}{\bfseries 100.00\%} & \bfseries 3357 & \multicolumn{1}{c|[1.5pt gray]}{\bfseries 100.00\%} \\
+    \tabucline[1.5pt gray]-
+    \end{tabu}%
+ \label{tab:dvar}%
+\end{table}%
 
 
 \subsection{Data Acquisition and Dataset Description}
