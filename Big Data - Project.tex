@@ -226,16 +226,31 @@ How did Trump's political statements on Twitter affect the American and Meixcan 
 
 
 \section{Theoretical Framework}
-For this research paper, an usupervised data mining technique has been chosen. With this method there are no pretetermined attirbutes or a specific target.
-This research aims to use induction and deduction to find correlations among data. Thus revealing a structure, which was otherwhise hidden.
 
-Clustering maybe? When distributing fake news and stuff? idk \\ (Reveal groups and categories, previously unaware of) -> Further datamining discover new correlations
+\subsection{Supervised datamining}
+Supervised and unsupervised datamining comes from machine learning, in a supervised method the data scientist will "supervise" the data and provide target information. In this research paper I have chosen to use supervised datamining, because I had a specific target.  There are two "main" subclasses when it comes to using supervised data mining. One is classification and the other is regression - these two differ in terms of what the target is. In this research paper, the target is stock prices and thus it can be defined as a numeric target. The other main subclass of supervised datamining is classification which deals with binary targets, however this has not been used in the reserach paper.
 
-Association: Co-occurences among events. -> Example, Trump becomes president and the currency falls, why?
-Asosciation rules "50 percent of the activity is negative?" \\
+I will use supervised datamining methods, because my target is specified and the data on said target exists. Furthermore, the historical data of the stock value of the examined companies are complete.
 
-Feature extraction: If violense, action, heroism is an attribute of a film then "action" may be trhe feature. 
-You can say that news can have t he feature fake or real?\\
+
+
+\subsection{Linear regression and fitting}
+In this research paper, models containing linear regressions will be used, in order to discover the relationship among variables in the data model.  This will help create a simple predictive model of the datasets showcasing Trump's short-term impact on certain companies, when he tweets about them, in a negative or positive way. In these regressional models, the x-variable will be the date the tweet was posted and the y-variable will be the closing price of a given stock. Thus, resulting Lienar  Functions with the format : y=mx+b, where m is the slope and b is where y intercepts. This will be done by attempting to fit a linear relationship between the dependent (Y) and independent (X) variables. \\
+
+There are other regressional models that can be used with supervised datamining. The use of statistical methods can be used, in order to discover which model has the best fit to your dataset. Such as  R-squared values, but in this research paper only linear regression will be used due to time constraints and my own lack of practical knowledge to complete a more statistically advanced model. However, the R-squared values will be discussed in the report, in order to examine the fit. \\
+
+In order to illustrate the importance of the R-squared value, the term overfitting and underfitting  datasets has to be defined. \\
+
+Overfitting is when a datamining procedure is completely tailored to the training data, in a worst case it is because a model is "memorized". This has a cost in terms of achieving a model that can generalize in terms of unseen data points and it may result in poor model performance and harmful consequences when determining correlations in a dataset. 
+
+ According to the authors of the books, overfitting is unavoidable to some extend. Therefore, there is not a specific data mining precdure that is "best" in terms of overfitting, nor does the authors argue that the answer is to produce a more simply model in order to produce less overfitting. There is a trade-off when making more complex models and overfitting, it depends on the situation and such a decision must be considered throughly by the data scientist, if a model is too simple it may not convey the actual complexities and thus will be less accurate than an advanced model with more overfitting.
+In terms of this report, I have decided that a simple linear regression is enough in order to get the bigger picture of Trump's short term impact on a companies stock, although I cannot deny that a more complex data model with more overfitting may have yielded better results. \\
+
+* Underfitting
+The opposite of overfitting is if we have a model that is underfitting. This means that the model that was produced is not good enough to represent the fitted data.  In terms of the R-squared value, the lower it is the more the model will be underfitting and the less useful the model will be in terms of representing the data.
+
+
+https://www.pugetsystems.com/labs/hpc/Machine-Learning-and-Data-Science-Linear-Regression-Part-6-978/
 
 
 
