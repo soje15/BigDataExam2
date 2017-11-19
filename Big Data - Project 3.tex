@@ -363,33 +363,33 @@ The second dataset consists of Historical data on the American and Mexican curre
 
 The third dataset is collected through Sentione and will be used to analyze the sentiment towards Trump's campaign. Ranging from before his inauguration, until 02/11/2017. 
 
-\cleardoublepage
-
 
 \section{Results}
 In this section of the research paper, I will go through the results of my datamining and discuss it in relation to the research question, and thus explain which insights I came across during my datamining, in order to create a meaningful discussion regarding Donald J. Trump's behaviour and impact on the stock prices of companies. The result section will be built around the CRISP framework, in order to better illustrate the process of my datamining.
 
 \subsection{Business understanding and Data Understanding}
-The understanding of both the overall research questions / Problem statement and the data was a very iterative process and thus is hard to document in a research paper, therefore my understanding will mostly be reflected in the following sections, where my ideas and reflections will be discussed.  And hopefully create a reflection of how I arrived at the understand of both my research questions and the data.
+The understanding of both the overall research questions / Problem statement and the data was a very iterative process and thus is hard to document in a research paper, therefore my understanding will mostly be reflected in the following sections, where my ideas and reflections will be discussed.  And hopefully create a reflection of how I arrived at the understanding of both my research questions and the data. \\
+
+However, I would like to elobrate on the Data Understanding part, as this section includes evaluating the strengths and weaknesses of the data. In this research paper, Mostly data collected from Trump's twitter account has been collected, together with data on various stock prices on companies.  As mentioned by Provost and Fawcett, there is rarely an exact match between the overall problem and the data, thus this has to be kept in mind when reading the next sections. Other factors that may have contributed to the changes in stock prices from the analyzed companies is not within the scope of this research paper, nor is it in the datasets collected. Thus, this can be considered the weakness of the data. The strengths of the data however, is that there is enough variables within the dataset in order to make an analysis on Trump's behaviour, in addition, to be able to compare it to stock prices.
 
 \subsection{Data Preperation}
 In order to prepare the Datasets from Twitter and Sentione, I used a datamining tool called "Alteryx", which deals with the backend part of the data analysis. This tool was used to filter my data and join the relevant tables with each other, in order to make a comprehensive analysis. Data that was filtered out was things such as "Twitter ID" and "URL", as these were not needed for the direction I was going for. \\
 
 
+Figure X shows an algorithm created in Alteryx that allows the creation of wordclouds. This Algorithim filters the dataset, so it only presents the text values. Furthermore, the algorithm removes empty data entries as well as other noise from the data. (e.g. ! : ; ). Finally, the aglorithm seperates the sentences with new lines, so that every word can be counted by number of occurence, this data can then be put into the Tableau software in order to create a WordCloud.
+
 
 
 \begin{figure}[H] %We begin our figure and want it to stay H(ere)
 	\centering %We want to center the figure
-\includegraphics [scale= .85]  {test2.PNG}    %Include our ijmage with a height and location of img.
+\includegraphics [scale= .85]  {TrumpWordCloudAlteryxFinal.PNG}    %Include our ijmage with a height and location of img.
 	\caption[Optional caption] {real, local caption for refrence}
 	\label{fig:wordcloudBliz}
 
 \end{figure}
 
-
-
-Furthermore, numerous WordClouds were produced with the Alteryx tool, by extracting the text-value of Trump's tweets, 
-
+\section{Modelling}
+The models I have created with Tableau (Frontend), which conclusions can we draw from them etc.
 
 
 \section{To be added later}
