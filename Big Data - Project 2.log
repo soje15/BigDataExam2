@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.18)  18 NOV 2017 22:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.18)  19 NOV 2017 13:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -634,11 +634,7 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \f@ncyO@olf=\skip57
 \f@ncyO@orf=\skip58
 )
-Excluding 'comment' comment. (./Big Data - Project 2.aux
-
-LaTeX Warning: Label `fig:wordcloudBliz' multiply defined.
-
-)
+Excluding 'comment' comment. (./Big Data - Project 2.aux)
 \openout1 = `"Big Data - Project 2.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
@@ -740,7 +736,7 @@ LaTeX Info: Redefining \nameref on input line 56.
 \openout4 = `"Big Data - Project 2.out"'.
 
 
-<TrumpWord.PNG, id=60, 662.475pt x 255.95625pt>
+<TrumpWord.PNG, id=4, 662.475pt x 255.95625pt>
 File: TrumpWord.PNG Graphic file (type png)
  <use TrumpWord.PNG>
 Package pdftex.def Info: TrumpWord.PNG used on input line 93.
@@ -748,12 +744,10 @@ Package pdftex.def Info: TrumpWord.PNG used on input line 93.
  [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Trump
-Word.PNG>] (./Big Data - Project 2.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
-)
+Word.PNG>]
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
 \tf@toc=\write5
 \openout5 = `"Big Data - Project 2.toc"'.
 
@@ -849,7 +843,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
-<CRISP.PNG, id=102, 290.58563pt x 232.61906pt>
+<CRISP.PNG, id=38, 290.58563pt x 232.61906pt>
 File: CRISP.PNG Graphic file (type png)
  <use CRISP.PNG>
 Package pdftex.def Info: CRISP.PNG used on input line 270.
@@ -869,48 +863,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 291--293
 
  []
 
-[5 <./CRISP.PNG>] <SygModel.PNG, id=114, 455.45157pt x 358.33875pt>
+[5 <./CRISP.PNG>] <SygModel.PNG, id=51, 455.45157pt x 358.33875pt>
 File: SygModel.PNG Graphic file (type png)
 
 <use SygModel.PNG>
 Package pdftex.def Info: SygModel.PNG used on input line 303.
 (pdftex.def)             Requested size: 387.13567pt x 304.58937pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 337.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 337.
 
 Overfull \vbox (24.0pt too high) detected at line 346
  []
 
 [6 <./SygModel.PNG>] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 385--386
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 396.
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 400.
 [8
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 396.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 400.
  (./Big Data - Project 2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 396.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 396.
-Package rerunfilecheck Info: File `"Big Data - Project 2".out' has not changed.
-
-(rerunfilecheck)             Checksum: BE21979ADD24DE97E55C3563677E83E1;892.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 400.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 400.
 
 
-LaTeX Warning: There were multiply-defined labels.
+Package rerunfilecheck Warning: File `"Big Data - Project 2".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 396.
+Package rerunfilecheck Info: Checksums for `"Big Data - Project 2".out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  3DDB8AAD720A8855CCC90CCB6BFB2D8E;913.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 400.
  ) 
 Here is how much of TeX's memory you used:
- 7684 strings out of 492995
- 110062 string characters out of 6132703
- 318575 words of memory out of 5000000
- 11112 multiletter control sequences out of 15000+600000
+ 7667 strings out of 492995
+ 109821 string characters out of 6132703
+ 318263 words of memory out of 5000000
+ 11097 multiletter control sequences out of 15000+600000
  7321 words of font info for 26 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,18n,43p,854b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -919,10 +927,10 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
-Output written on "Big Data - Project 2.pdf" (10 pages, 213525 bytes).
+Output written on "Big Data - Project 2.pdf" (10 pages, 207138 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
- 133 compressed objects within 2 object streams
+ 100 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  28 named destinations out of 1000 (max. 500000)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -274,7 +274,7 @@ Furthermore,  the CRISP framework has been used in a modified fashion, in order 
 \end{figure}
 
 
-The model serves to illustrate how the data was processed throughout the proejct in order to yield a final result/answer to the resarch questions. The model is iterative and serves to explore the Twitter data, so a better
+The model serves to illustrate how the data was processed throughout the proejct in order to yield a final result/answer to the research questions. The model is iterative and serves to explore the Twitter data, so a better
 understanding of the data can be reached. This process has been conciously iterated throughout the project.
 
 "Business understanding" is in this context the overall problem formulation and research questions that we wish answered.\\
@@ -361,7 +361,7 @@ The first datasets consists of Twitter data on Trump's primary twitter channel. 
 
 The second dataset consists of Historical data on the American and Mexican currency between Trump's announcement to  14/07/2017
 
-The third dataset is collected through Sentione and will be used to analyze the sentiment towards Trump's campaign. Ranging from before his inagruation, until 02/11/2017. 
+The third dataset is collected through Sentione and will be used to analyze the sentiment towards Trump's campaign. Ranging from before his inauguration, until 02/11/2017. 
 
 \cleardoublepage
 
@@ -369,17 +369,21 @@ The third dataset is collected through Sentione and will be used to analyze the 
 \section{Results}
 In this section of the research paper, I will go through the results of my datamining and discuss it in relation to the research question, and thus explain which insights I came across during my datamining, in order to create a meaningful discussion regarding Donald J. Trump's behaviour and impact on the stock prices of companies. The result section will be built around the CRISP framework, in order to better illustrate the process of my datamining.
 
-\subsection{Business understanding}
-Might leave this out
+\subsection{Business understanding and Data Understanding}
+The understanding of both the overall research questions / Problem statement and the data was a very iterative process and thus is hard to document in a research paper, therefore my understanding will mostly be reflected in the following sections, where my ideas and reflections will be discussed.  And hopefully create a reflection of how I arrived at the understand of both my research questions and the data.
 
-\subsection{Data Understanding}
-The way the data was collected was by the use of collecting data from Social Media,
+\subsection{Data Preperation}
+In order to prepare the Datasets from Twitter and Sentione, I used a datamining tool called "Alteryx", which deals with the backend part of the data analysis. This tool was used to filter my data and join the relevant tables with each other, in order to make a comprehensive analysis. Data that was filtered out was things such as "Twitter ID" and "URL", as these were not needed for the direction I was going for. 
+
+Furthermore, numerous WordClouds were produced with the Alteryx tool, by extracting the text-value of Trump's tweets, 
+
+
 
 \section{To be added later}
 
 As shown in Figure X, Trump makes a tweet about an aircraft company, who supplied to the US. Government?, the result of his negative tweet, the company stock had a short-term impact and dropped on the next close-price. Starting out at a close-price of xxxx at xxxx and ended up with a close-price of xxxx after Trump's Tweet the xx/xx/xx \\
 
-To dig deeper and analyze Trump's behaviour even further, we can use Text-mining in order to determine the most frequently words that he used. Here we can see that before he announced his candidacy, he was already very invested in politics and tweeted mostly about Obama and making America great again. Looking at the text-mining during his presidency, the most frequently words that pop up are mostly of Hillary along with "nicknames" such as "crooked" that Trump used during his campaign in order to ?denounce his political opponents.  \\
+To dig deeper and analyze Trump's behavior even further, we can use Text-mining in order to determine the most frequently words that he used. Here we can see that before he announced his candidacy, he was already very invested in politics and tweeted mostly about Obama and making America great again. Looking at the text-mining during his presidency, the most frequently words that pop up are mostly of Hillary along with "nicknames" such as "crooked" that Trump used during his campaign in order to ?denounce his political opponents.  \\
 
 
 Furthermore, by the use of text-mining and using an algorithm, that sorts comments into differerent classifications "positive", "negative", "neutral". It is possible to determine, whether the reaction of Trump's presidency was overall positive or negative. \\
