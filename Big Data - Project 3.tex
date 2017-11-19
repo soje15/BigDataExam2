@@ -8,7 +8,6 @@
 \usepackage{titlepic}
 \usepackage{multirow}
 
-
 \graphicspath{ {\Users\soren\Desktop\Projects 5. semester\Big Data/} }
 
 
@@ -52,7 +51,6 @@ fancyfootHDR package, allows us to add cool headers and footers. R aligns to the
 
 
 
-%
 \begin{document}
 
 
@@ -382,14 +380,67 @@ Figure X shows an algorithm created in Alteryx that allows the creation of wordc
 
 \begin{figure}[H] %We begin our figure and want it to stay H(ere)
 	\centering %We want to center the figure
-\includegraphics [scale= .85]  {TrumpWordCloudAlteryxFinal.PNG}    %Include our ijmage with a height and location of img.
+\includegraphics [scale= .65]  {TrumpWordCloudAlteryxFinal.PNG}    %Include our ijmage with a height and location of img.
 	\caption[Optional caption] {real, local caption for refrence}
 	\label{fig:wordcloudBliz}
 
 \end{figure}
 
 \section{Modelling}
-The models I have created with Tableau (Frontend), which conclusions can we draw from them etc.
+This section contains the models that I have produced with Tableau, which is the product i used to make my visual data analytics. In this section I will use the model to answer the research questions. \\
+
+In order to answer the first research question, regarding Trump's behaviour before and after he announced his presidency, I used textmining in order to build wordcloud, which shows which words he used frequently and thus can reveal something about his behaviour. The first model I want to show, is one that illustrates Trump's most used words before his announcement of candidacy.
+
+
+\begin{figure}[H] %We begin our figure and want it to stay H(ere)
+	\centering %We want to center the figure
+\includegraphics [scale= .45]  {TrumpBeforeAnnouncementWordFinal}    %Include our ijmage with a height and location of img.
+	\caption[Optional caption] {real, local caption for refrence}
+	\label{fig:wordcloudBliz}
+
+\end{figure}
+
+As Figure X shows, Trump was invested in the politics of USA before his announcement as president, having frequently used words such as "obamacare, president, government, barackobama". Furthermore, it can be seen that Trump's tweet weren't all about politics, but also about "business" and his TV-shows such as the apprentice (apprenticenbc). Therefore, it would be interesting to see a wordcloud of his behaviour after he announced his candidacy. 
+
+
+\begin{figure}[H] %We begin our figure and want it to stay H(ere)
+	\centering %We want to center the figure
+\includegraphics [scale= .45]  {TrumpAfterAnnouncement}    %Include our ijmage with a height and location of img.
+	\caption[Optional caption] {real, local caption for refrence}
+	\label{fig:wordcloudBliz}
+
+\end{figure}
+
+Here we see a similar, yet different story. Trump's tweets that were mostly unrelated to politics no longer showed up after filtering the word count, as they did in the previous model. Thus, we can see that Trump started focusing a lot more on politics and "fake news". Frequently using words such as "Hillay", "America", "media". We can also see, how Trump used twitter to further spread the nicknames of his political opponents, such as "crooked". \\
+
+An interesting factor in this regard is to investigate the second research questions, so we can analyze how his behaviour on Twitter affected the "external environment", such as the stock prices of companies.  I created a model which illustrates how a negative tweet from Donald J. Trump, may affect the stock price of LockHeed Martin aircraft company.
+
+
+\begin{figure}[H] %We begin our figure and want it to stay H(ere)
+	\centering %We want to center the figure
+\includegraphics [scale= .6]  {TrumpLockheedFinalDec.PNG}    %Include our ijmage with a height and location of img.
+	\caption[Optional caption] {real, local caption for refrence}
+	\label{fig:wordcloudBliz}
+
+\end{figure}
+
+Figure X shows that the stock price before Trump posted a negative tweet, regarding his disatifaction with the F-35 program and how he would save money on military by cutting costs in the area that Lockheed Martin serviced the US.Army. As the graph shows, the closing price the day Trump made his tweet was 255.49 USD, but quickly fell to 249.69 USD the following day. Furthermore, later in the same month, Trump tweeted again that he would change supplier to Boeing, causing the stock price to fall from 252.18 to 247.34. \\
+
+If we go further from this standpoint, we can make a linear regression of the month of December, where Trump made these tweets. The linear trend line shows a negative slope of -0.6 USD in close price every day, which shows that Trump's tweets did indeed have a negative impact on the stock prices of Lockheed Martin. Furthermore, it can be said that the model has an R-squared value of 0.725, which indicates that the goodness-of-fit for the datamodel is decent. However, it should always be kept in mind as mention in the section "Theoretical Framework" that even a good R-squared value, may not always mean that you have a good model. \\
+
+The above findings makes it interesting and relevant to expand our scope and look at the following month, to see if Trump's tweets' also affected the month of January 2017.
+
+\begin{figure}[H] %We begin our figure and want it to stay H(ere)
+	\centering %We want to center the figure
+\includegraphics [scale= .6]  {TrumpJanuaryEffect.PNG}    %Include our ijmage with a height and location of img.
+	\caption[Optional caption] {real, local caption for refrence}
+	\label{fig:wordcloudBliz}
+
+\end{figure}
+
+It becomes clear that Trump's tweets' only have an initial effect on the market, as the stock quickly stabilized itself in the following month. However, one most keep in mind that this model has a very bad fit for our data, with an R-squared value of > 0.1, which means that it doesn't fit our observations in the data very well. 
+
+
 
 
 \section{To be added later}
