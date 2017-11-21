@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{lipsum}
 \usepackage[left=2cm, right=2cm, top=3cm, includefoot]{geometry}
@@ -129,9 +129,15 @@ fancyfootHDR package, allows us to add cool headers and footers. R aligns to the
 \cleardoublepage%Table of contents end
 
 
-\section{Summary} %Summary
-Summary section
-
+\section{Abstract} %Summary
+The topic in this research paper is an analysis of Donald J. Trump's Twitter account, using datascience and datamining tools to reveal his behaviour.
+Problemformulation
+The research questions were:
+ What was trump?s behaviour on social media, prior to his announcement of his presidency. And how did it change, during and after his political campaign.  
+ How does Trump?s behaviour affect the stock prices of companies ?
+ What does using datascience to analyze Donald Trump?s behaviour mean from an ethical standpoint?
+ The research questions were answered using datasets from Trump's twitter profile, as well as nasdaq to get stock prices of companies he tweeted about.
+ 
 
 \cleardoublepage %Summary end
 
@@ -205,7 +211,7 @@ I therefore believe that it is extremely relevant to utilize datascience and dat
 %https://www.dropbox.com/sh/kd87npmrvcwiyge/AADRTmSB6lDt5ChunVY_Xy0Ea/ExampleProjects?dl=0&preview=ExampleProject%2301-VisualAnalytics-NYC_TaxiRides-GreenCabs_vs_Uber.pdf
 
 \section{Problem Formulation and Reserach questions} \label{sec:ch1}
-The goal of this research paper is to analyze  trumps behaviour on Twitter and how he used Twitter to combat "fake news". A visual analysis on his behaviour between DATE and DATE will be conducted to reveal the patterns in his behaviour in this timeframe. This leads to the reserach question: 
+The goal of this research paper is to analyze  trumps behaviour on Twitter and how he used Twitter for political endeavours. A visual analysis on his behaviour between DATE and DATE will be conducted to reveal the patterns in his behaviour in this timeframe. This leads to the research question: 
 
 \par\vspace{10pt}
 
@@ -217,7 +223,7 @@ How does Trump's behaviour affect the stock prices of companies ? \\
 
 Finally, it is relevant to evaluate and discuss what the above actually means to the context of Data Science, both from an ethical point of view, but also from a practical point of view. This leads to the final research question: \\
 
-What does Donald Trump's behaviour mean from a datascience standpoint and how do we avoid ethical implications?
+What does using datascience to analyze Donald Trump's behaviour mean from an ethical standpoint?
  
 
 
@@ -374,6 +380,8 @@ However, I would like to elobrate on the Data Understanding part, as this sectio
 In order to prepare the Datasets from Twitter and Sentione, I used a datamining tool called "Alteryx", which deals with the backend part of the data analysis. This tool was used to filter my data and join the relevant tables with each other, in order to make a comprehensive analysis. Data that was filtered out was things such as "Twitter ID" and "URL", as these were not needed for the direction I was going for. \\
 
 
+One use of Alteryx was to do text-mining, which by nature is a very dirty and unstructured form of Big Data. While text-mining, it is important to keep in mind the context of the text (For example, what does Trump mean when he tweet "Crooked" a lot). Alteryx was used to find the frequency of the text, which shows how often a word showed up in the dataset.  \\
+
 Figure X shows an algorithm created in Alteryx that allows the creation of wordclouds. This Algorithim filters the dataset, so it only presents the text values. Furthermore, the algorithm removes empty data entries as well as other noise from the data. (e.g. ! : ; ). Finally, the aglorithm seperates the sentences with new lines, so that every word can be counted by number of occurence, this data can then be put into the Tableau software in order to create a WordCloud.
 
 
@@ -445,15 +453,37 @@ It becomes clear that Trump's tweets' only have an initial effect on the market,
 
 \section{To be added later}
 
-As shown in Figure X, Trump makes a tweet about an aircraft company, who supplied to the US. Government?, the result of his negative tweet, the company stock had a short-term impact and dropped on the next close-price. Starting out at a close-price of xxxx at xxxx and ended up with a close-price of xxxx after Trump's Tweet the xx/xx/xx \\
-
-To dig deeper and analyze Trump's behavior even further, we can use Text-mining in order to determine the most frequently words that he used. Here we can see that before he announced his candidacy, he was already very invested in politics and tweeted mostly about Obama and making America great again. Looking at the text-mining during his presidency, the most frequently words that pop up are mostly of Hillary along with "nicknames" such as "crooked" that Trump used during his campaign in order to ?denounce his political opponents.  \\
 
 
 Furthermore, by the use of text-mining and using an algorithm, that sorts comments into differerent classifications "positive", "negative", "neutral". It is possible to determine, whether the reaction of Trump's presidency was overall positive or negative. \\
 
 The results show that Trump's inital support at the announcement of his presidency was overall positive, with very few negative comments.  The negative comments grew exponentially, as Trump got closed to winning his presidency, peaking around the time of his inagruation at xx/xx/xxxx
 
+
+\section{Discussion}
+
+
+
+
+
+
+In order to discuss the findings in this research paper in relation to an important topic of Data Science, I will discuss what ethical issues that datamining and datascience have on society. According to Fawcett, there is a correlation between good business decisions and the use of data to base them on. As an example, a lot of information about Trump's behaviour was datamined, revealing what topics he was interested in, what his impact is on his external environment etc. In Trump's case, he was mostly marketing his own "brand", but it is a concern, if such data was used on consumers without their consent and thus, raises questions about privacy. Companies will want to dig more and more into data about their consumers in order to reveal their behaviour and use it to increase the value in their business. This concern of privacy is a big issue, but is getting continuously regulated. As an example, a new personal data regulation in EU will help secure the privacy of consumers.
+
+\section{Conclusion}
+This research paper aimed to answer three different research questions: \\
+
+\textit{What was trump's behaviour on social media, prior to his announcement of his presidency. And how did it change, during and after his political campaign.}\\
+
+For this research question, text-mining was used in order to reveal the frequency and analyze the context, in which Trump's tweets contained. It was found, that Trump was invested in politics before and after he announced his candidacy. Although, Trump was more invested in his TV-shows, such as the Apprentice before his announcement. After his announcement, it was found that Trump had a much bigger focus on political statements, naming political opponents and negative nicknames for them. \\
+
+\textit{How does Trump's behaviour affect the stock prices of companies ?} \\
+
+This research question was answered using linear regression and data about a company in he aviation industry, called Lockheed Martin. It was here shown that Trump had a short-term effect on the stock price of the company, when he tweeted negatively about it. The findings showed that the following month, the stockprices stabilized compared to the month of the tweets'.\\
+
+
+\textit{What does using datascience to analyze Donald Trump's behaviour mean from an ethical standpoint?}\\
+ 
+From an ethical standpoint, it was concluded that the possibility of using datamining and datascience to reveal the behvaiour and impact that an individual can have on social media, is a threat to the privacy in society. It was concluded that such areas must be regulated in order to protect the rights of privacy. Using regulations such as the personal data regulation in EU.  
 
 
 
