@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.18)  20 NOV 2017 16:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.18)  21 NOV 2017 22:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -634,26 +634,7 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \f@ncyO@olf=\skip57
 \f@ncyO@orf=\skip58
 )
-Excluding 'comment' comment. (./Big Data - Project 3.aux
-
-LaTeX Warning: Label `fig:wordcloudBliz' multiply defined.
-
-
-LaTeX Warning: Label `fig:wordcloudBliz' multiply defined.
-
-
-LaTeX Warning: Label `fig:wordcloudBliz' multiply defined.
-
-
-LaTeX Warning: Label `fig:wordcloudBliz' multiply defined.
-
-
-LaTeX Warning: Label `fig:wordcloudBliz' multiply defined.
-
-
-LaTeX Warning: Label `fig:wordcloudBliz' multiply defined.
-
-)
+Excluding 'comment' comment. (./Big Data - Project 3.aux)
 \openout1 = `"Big Data - Project 3.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
@@ -755,7 +736,7 @@ LaTeX Info: Redefining \nameref on input line 54.
 \openout4 = `"Big Data - Project 3.out"'.
 
 
-<TrumpWord.PNG, id=72, 662.475pt x 255.95625pt>
+<TrumpWord.PNG, id=4, 662.475pt x 255.95625pt>
 File: TrumpWord.PNG Graphic file (type png)
  <use TrumpWord.PNG>
 Package pdftex.def Info: TrumpWord.PNG used on input line 91.
@@ -763,14 +744,10 @@ Package pdftex.def Info: TrumpWord.PNG used on input line 91.
  [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Trump
-Word.PNG>] (./Big Data - Project 3.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
-)
+Word.PNG>]
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
 \tf@toc=\write5
 \openout5 = `"Big Data - Project 3.toc"'.
 
@@ -879,7 +856,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
-<CRISP.PNG, id=117, 290.58563pt x 232.61906pt>
+<CRISP.PNG, id=38, 290.58563pt x 232.61906pt>
 File: CRISP.PNG Graphic file (type png)
  <use CRISP.PNG>
 Package pdftex.def Info: CRISP.PNG used on input line 274.
@@ -899,12 +876,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 295--297
 
  []
 
-<SygModel.PNG, id=129, 455.45157pt x 358.33875pt>
+<SygModel.PNG, id=51, 455.45157pt x 358.33875pt>
 File: SygModel.PNG Graphic file (type png)
  <use SygModel.PNG>
 Package pdftex.def Info: SygModel.PNG used on input line 307.
 (pdftex.def)             Requested size: 387.13567pt x 304.58937pt.
  [6 <./SygModel.PNG>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 341.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 341.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 341.
+
 Overfull \vbox (27.19998pt too high) detected at line 350
  []
 
@@ -923,7 +907,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 383--384
 
  []
 
-<TrumpWordCloudAlteryxFinal.PNG, id=142, 540.51938pt x 273.27094pt>
+<TrumpWordCloudAlteryxFinal.PNG, id=69, 540.51938pt x 273.27094pt>
 File: TrumpWordCloudAlteryxFinal.PNG Graphic file (type png)
 
 <use TrumpWordCloudAlteryxFinal.PNG>
@@ -936,7 +920,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 398--399
  []
 
 [8 <./TrumpWordCloudAlteryxFinal.PNG>]
-<TrumpBeforeAnnouncementWordFinal.png, id=150, 739.26187pt x 420.82219pt>
+<TrumpBeforeAnnouncementWordFinal.png, id=77, 739.26187pt x 420.82219pt>
 File: TrumpBeforeAnnouncementWordFinal.png Graphic file (type png)
 
 <use TrumpBeforeAnnouncementWordFinal.png>
@@ -944,7 +928,7 @@ Package pdftex.def Info: TrumpBeforeAnnouncementWordFinal.png used on input lin
 e 405.
 (pdftex.def)             Requested size: 332.66476pt x 189.36823pt.
 
-<TrumpAfterAnnouncement.png, id=151, 732.48656pt x 336.50719pt>
+<TrumpAfterAnnouncement.png, id=78, 732.48656pt x 336.50719pt>
 File: TrumpAfterAnnouncement.png Graphic file (type png)
 
 <use TrumpAfterAnnouncement.png>
@@ -955,7 +939,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 422--423
 
  []
 
-<TrumpLockheedFinalDec.PNG, id=158, 749.04843pt x 569.87906pt>
+<TrumpLockheedFinalDec.PNG, id=86, 749.04843pt x 569.87906pt>
 File: TrumpLockheedFinalDec.PNG Graphic file (type png)
 
 <use TrumpLockheedFinalDec.PNG>
@@ -972,7 +956,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 437--438
  []
 
 [11 <./TrumpLockheedFinalDec.PNG>]
-<TrumpJanuaryEffect.PNG, id=172, 442.65375pt x 446.41782pt>
+<TrumpJanuaryEffect.PNG, id=100, 442.65375pt x 446.41782pt>
 File: TrumpJanuaryEffect.PNG Graphic file (type png)
 
 <use TrumpJanuaryEffect.PNG>
@@ -1026,18 +1010,18 @@ Package rerunfilecheck Warning: File `"Big Data - Project 3".out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `"Big Data - Project 3".out':
-(rerunfilecheck)             Before: 0108F626058F735DD033F26762C9C749;1051
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
 (rerunfilecheck)             After:  08B1E4F0266A465F7352FDCE91B297ED;1052.
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 494.
  ) 
 Here is how much of TeX's memory you used:
- 7747 strings out of 492995
- 111249 string characters out of 6132703
- 320608 words of memory out of 5000000
- 11149 multiletter control sequences out of 15000+600000
+ 7727 strings out of 492995
+ 110974 string characters out of 6132703
+ 320295 words of memory out of 5000000
+ 11131 multiletter control sequences out of 15000+600000
  10406 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,18n,43p,1016b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1047,10 +1031,10 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></u
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Big Data - Project 3.pdf" (15 pages, 421541 bytes).
+Output written on "Big Data - Project 3.pdf" (15 pages, 413537 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
+ 148 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
  41 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
