@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.18)  13 DEC 2017 13:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.18)  13 DEC 2017 20:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9,8 +9,8 @@ LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -707,12 +707,12 @@ LaTeX Font Info:    ... okay on input line 56.
 * \topmargin=-23.91173pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=59.0pt
+* \marginparwidth=44.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -782,7 +782,7 @@ Package pdftex.def Info: TrumpWord.PNG used on input line 93.
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Trump
 Word.PNG>] (./Big Data - Project 3.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 3.
+(Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -797,18 +797,33 @@ been already used, duplicate ignored
                    \relax 
 l.125  \cleardoublepage
                         [1]
-Underfull \hbox (badness 10000) in paragraph at lines 135--138
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--142
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -816,259 +831,288 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.146 \cleardoublepage
+l.154 \cleardoublepage
                        %Summary end [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
 
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--234
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--238
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
 
  []
 
-<CRISP.PNG, id=152, 290.58563pt x 232.61906pt>
+<CRISP.PNG, id=160, 290.58563pt x 232.61906pt>
 File: CRISP.PNG Graphic file (type png)
  <use CRISP.PNG>
-Package pdftex.def Info: CRISP.PNG used on input line 265.
+Package pdftex.def Info: CRISP.PNG used on input line 273.
 (pdftex.def)             Requested size: 276.05478pt x 220.98685pt.
- [5 <./CRISP.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 279--281
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 280--283
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--286
+Underfull \hbox (badness 10000) in paragraph at lines 280--283
 
  []
 
-<SygModel.PNG, id=161, 455.45157pt x 358.33875pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+
+ []
+
+[6 <./CRISP.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 287--289
+
+ []
+
+<SygModel.PNG, id=174, 455.45157pt x 358.33875pt>
 File: SygModel.PNG Graphic file (type png)
  <use SygModel.PNG>
-Package pdftex.def Info: SygModel.PNG used on input line 296.
+Package pdftex.def Info: SygModel.PNG used on input line 299.
 (pdftex.def)             Requested size: 387.13567pt x 304.58937pt.
- [6]
-Overfull \vbox (27.19998pt too high) detected at line 339
- []
-
-[7 <./SygModel.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
+ [7]
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
+
+ []
+
+[8 <./SygModel.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--371
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
-[8] <TrumpWordCloudAlteryxFinal.PNG, id=177, 540.51938pt x 273.27094pt>
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+
+ []
+
+<TrumpWordCloudAlteryxFinal.PNG, id=189, 540.51938pt x 273.27094pt>
 File: TrumpWordCloudAlteryxFinal.PNG Graphic file (type png)
 
 <use TrumpWordCloudAlteryxFinal.PNG>
-Package pdftex.def Info: TrumpWordCloudAlteryxFinal.PNG used on input line 378.
+Package pdftex.def Info: TrumpWordCloudAlteryxFinal.PNG used on input line 354.
 
 (pdftex.def)             Requested size: 351.33342pt x 177.624pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+
+ []
+
+<TrumpBeforeAnnouncementWordFinal.png, id=190, 739.26187pt x 420.82219pt>
+File: TrumpBeforeAnnouncementWordFinal.png Graphic file (type png)
+
+<use TrumpBeforeAnnouncementWordFinal.png>
+Package pdftex.def Info: TrumpBeforeAnnouncementWordFinal.png used on input lin
+e 368.
+(pdftex.def)             Requested size: 332.66476pt x 189.36823pt.
+ [10 <./TrumpWordCloudAlteryxFinal.PNG>] <TrumpAfterAnnouncement.png, id=197, 7
+32.48656pt x 336.50719pt>
+File: TrumpAfterAnnouncement.png Graphic file (type png)
+
+<use TrumpAfterAnnouncement.png>
+Package pdftex.def Info: TrumpAfterAnnouncement.png used on input line 379.
+(pdftex.def)             Requested size: 329.61589pt x 151.42682pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 385--386
 
  []
 
-<TrumpBeforeAnnouncementWordFinal.png, id=178, 739.26187pt x 420.82219pt>
-File: TrumpBeforeAnnouncementWordFinal.png Graphic file (type png)
-
-<use TrumpBeforeAnnouncementWordFinal.png>
-Package pdftex.def Info: TrumpBeforeAnnouncementWordFinal.png used on input lin
-e 392.
-(pdftex.def)             Requested size: 332.66476pt x 189.36823pt.
- [9 <./TrumpWordCloudAlteryxFinal.PNG>] <TrumpAfterAnnouncement.png, id=185, 73
-2.48656pt x 336.50719pt>
-File: TrumpAfterAnnouncement.png Graphic file (type png)
-
-<use TrumpAfterAnnouncement.png>
-Package pdftex.def Info: TrumpAfterAnnouncement.png used on input line 403.
-(pdftex.def)             Requested size: 329.61589pt x 151.42682pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 409--410
-
- []
-
-[10 <./TrumpBeforeAnnouncementWordFinal.png> <./TrumpAfterAnnouncement.png>]
-<lockfinal.png, id=194, 993.7125pt x 756.8275pt>
+[11 <./TrumpBeforeAnnouncementWordFinal.png> <./TrumpAfterAnnouncement.png>]
+<lockfinal.png, id=207, 993.7125pt x 756.8275pt>
 File: lockfinal.png Graphic file (type png)
  <use lockfinal.png>
-Package pdftex.def Info: lockfinal.png used on input line 416.
+Package pdftex.def Info: lockfinal.png used on input line 391.
 (pdftex.def)             Requested size: 447.16649pt x 340.56923pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 422--423
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
 
  []
 
-[11 <./lockfinal.png>]
-<TrumpJanuaryEffect.PNG, id=202, 442.65375pt x 446.41782pt>
+[12 <./lockfinal.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
+
+ []
+
+<TrumpJanuaryEffect.PNG, id=214, 442.65375pt x 446.41782pt>
 File: TrumpJanuaryEffect.PNG Graphic file (type png)
 
 <use TrumpJanuaryEffect.PNG>
-Package pdftex.def Info: TrumpJanuaryEffect.PNG used on input line 430.
+Package pdftex.def Info: TrumpJanuaryEffect.PNG used on input line 407.
 (pdftex.def)             Requested size: 265.59428pt x 267.85275pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 443--444
-
- []
-
-[12 <./TrumpJanuaryEffect.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 460--461
+ [13 <./TrumpJanuaryEffect.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 428--430
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--463
+Underfull \hbox (badness 10000) in paragraph at lines 431--432
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
+Underfull \hbox (badness 10000) in paragraph at lines 433--435
 
  []
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 466--467
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 468--469
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 446--447
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--472
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
 
  []
 
-[14] (./Big Data - Project 3.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 9--13
-[]\OT1/cmr/m/n/10.95 McAfee, A. & Bryn-jolf-s-son, E. (2012), `Big data:the man
--age-ment rev-o-lu-tion'.
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
+
  []
 
-) [15
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
+
+ []
+
+[16] (./Big Data - Project 3.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+[]\OT1/cmr/m/n/12 McAfee, A. & Bryn-jolf-s-son, E. (2012), `Big data:the man-ag
+e-ment rev-o-lu-tion'.
+ []
+
+) [17
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 489.
+(hyperref)                removing `\\' on input line 472.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 491.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 474.
 
-Package Fancyhdr Warning: \headheight is too small (13.59999pt): 
- Make it at least 25.16252pt.
+Package Fancyhdr Warning: \headheight is too small (14.49998pt): 
+ Make it at least 27.05003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16
+[18
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 491.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 474.
  (./Big Data - Project 3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 491.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 491.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 474.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 474.
 Package rerunfilecheck Info: File `"Big Data - Project 3".out' has not changed.
 
-(rerunfilecheck)             Checksum: FD3EFF3462DB9AABD5407E97A14B552C;1338.
+(rerunfilecheck)             Checksum: 1E1CBBA05CB22A53AAE6DA17A5CB2DCF;1341.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 491.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 474.
  ) 
 Here is how much of TeX's memory you used:
- 8169 strings out of 492995
- 116353 string characters out of 6132703
- 324287 words of memory out of 5000000
- 11550 multiletter control sequences out of 15000+600000
- 10406 words of font info for 36 fonts, out of 8000000 for 9000
+ 8162 strings out of 492995
+ 116254 string characters out of 6132703
+ 325219 words of memory out of 5000000
+ 11543 multiletter control sequences out of 15000+600000
+ 10403 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,18n,43p,1062b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Big Data - Project 3.pdf" (18 pages, 439324 bytes).
+ 41i,11n,43p,1075b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "Big Data - Project 3.pdf" (20 pages, 421947 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
- 221 compressed objects within 3 object streams
+ 276 PDF objects out of 1000 (max. 8388607)
+ 230 compressed objects within 3 object streams
  52 named destinations out of 1000 (max. 500000)
  209 words of extra memory for PDF output out of 10000 (max. 10000000)
 

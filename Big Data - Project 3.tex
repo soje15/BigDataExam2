@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{lipsum}
 \usepackage[left=2cm, right=2cm, top=3cm, includefoot]{geometry}
@@ -132,16 +132,24 @@ fancyfootHDR package, allows us to add cool headers and footers. R aligns to the
 
 
 \section{Abstract} %Summary
-The topic in this research paper is an analysis of Donald J.\ Trump's Twitter account, using datascience and datamining tools to reveal his behaviour.\
-Problemformulation
-The research questions that will be answered in this paper are:  \\
+The topic in this research paper is an analysis of Donald J.\ Trump's Twitter account, using datascience and datamining tools to reveal his behaviour. In addition to this, research what his impact was on the stock price of Lockheed Martin, which he tweeted negatively about. In addition to this, the ethical standpoint of data science was discussed in relation to the above.\
 
- What was trump's behaviour on social media, prior to his announcement of his presidency.\ And how did it change, during and after his political campaign.\ \\
- How does Trump's behaviour affect the stock prices of companies ?\\
- What does using datascience to analyze Donald Trump?s behaviour mean from an ethical standpoint?\\
+This produced the following research questions in this research paper:  \\
+
+\textit{What was trump's behaviour on social media, prior to his announcement of his presidency. And how did it change, during and after his political campaign.}\\
+
+\textit{How does Trump's behaviour affect the stock prices of companies ?} \\
+
+
+
+
+\textit{What does using datascience to analyze Donald Trump's behaviour mean from an ethical standpoint?}\\
  
- The research questions were answered using datasets from Trump's twitter profile, as well as nasdaq to get stock prices of companies he tweeted about.\
+The concepts used in this research paper were supervised datamining, where a linear regression model was made in order to analyze the overall impact of a negative tweet from Trump. In addition to this, text mining was used in order to generate a "bag of words", which could reveal patterns in the frequency of the words Trump used before and after his announcement of candidacy. The main analytics tools that were used to accomplish this, was Alteryx, which was used to filter, merge and preprare the datasets. In addition to this, a visual analytics tool called Tableau was used, in order to generate the models and illustrate the findings of datamining. \\
+
+The most important results of this research paper, was that Trump shifted from tweeting about business and politics, to focusing more on politics after his announcement. Revealing a behavioral pattern, which suggested that his motivation of using social media is self-promotion. In addition to this, the linear regression revealed that a tweet from his Twitter account, can negatively impact the price of Lockheed Martin stock. Finally, from an ethical point of view, it was found that the possibility of analyzing behaviour on social media, can raise serious privacy concerns, which thankfully was found to be a field, which is getting increasingly regulated in especially the EU.
  
+
 
 \cleardoublepage %Summary end
 
@@ -215,33 +223,27 @@ Supervised and unsupervised datamining comes from machine learning, in a supervi
 
 
 \subsection{Linear regression and fitting}
-In this research paper, models containing linear regressions will be used, in order to discover the relationship among variables in the data model.  This will help create a simple predictive model of the datasets showcasing Trump's short-term impact on certain companies, when he tweets about them, in a negative way. In these regression models, the x-variable will be the date the tweet was posted and the y-variable will be the closing price of a given stock. Thus, resulting linear  functions with the format : y=mx+b, where m is the slope and b is where y intercepts. This will be done by attempting to fit a linear relationship between the dependent (Y) and independent (X) variables. \\
+In this research paper, models containing linear regressions will be used, in order to discover the relationship among variables in the data model.\ This will help create a simple predictive model of the datasets showcasing Trump's short-term impact on lockheed-martin, when he tweets about them in a negative way.\ In these regression models, the x-variable will be the date the tweet was posted and the y-variable will be the closing price of a given stock. Thus, resulting linear functions will have the format : y=mx+b, where m is the slope and b is where the regression line intercepts the y-axis.\ This will be done by attempting to fit a linear relationship between the dependent (Y) and independent (X) variables. \citep{foster} \\
 
-There are other regression models that can be used with supervised datamining. The use of statistical methods can be used, in order to discover which model has the best fit to your dataset. Such as  R-squared and p-values. In this research paper only linear regression will be used due to time constraints and lack of practical knowledge to complete a more statistically advanced model. However, the aforementioned values will be discussed in the report, in order to examine the fit. \\
+There are other regression models that can be used with supervised datamining and in order to determine which method has the best fit for your data, it is possible to use various statistical metrics. Such as r-squared. In order to illustrate the importance of r-squared and other similar metrics, the terms overfitting and under-fitting datasets has to be defined. Overfitting is when a datamining procedure is completely tailored to the training data, in a worst case it is because a model is "memorized". This has a cost in terms of achieving a model that can generalize in terms of unseen data points and it may result in poor model performance and harmful consequences when determining correlations in a dataset. \citep{foster}\\
 
-In order to illustrate the importance of these values, the terms overfitting and underfitting  datasets has to be defined. \\
-
-Overfitting is when a datamining procedure is completely tailored to the training data, in a worst case it is because a model is "memorized". This has a cost in terms of achieving a model that can generalize in terms of unseen data points and it may result in poor model performance and harmful consequences when determining correlations in a dataset. 
-
-According to the authors of the books, overfitting is unavoidable to some extend. Therefore, there is not a specific data mining procedure that is "best" in terms of overfitting, nor does the authors argue that the answer is to produce a simple model in order to produce less overfitting. There is a trade-off when making more complex models and overfitting, it depends on the situation and such a decision must be considered throughly by the data scientist, if a model is too simple it may not convey the actual complexities and thus will be less accurate than an advanced model with more overfitting. In terms of this report, I have decided that a simple linear regression is enough in order to get the bigger picture of Trump's short term impact on a companies stock. In spite of this, I cannot deny that a more complex data model with more overfitting may have yielded better results. But such model has not been built and tested in this research paper. \\
+According to Provost and Fawcett, overfitting is unavoidable to some extend. Therefore, there is not a specific data mining procedure that is "best" in terms of overfitting, nor does the authors argue that the answer is to produce a simple model in order to produce less overfitting. There is a trade-off when making more complex models and overfitting, it depends on the situation and such a decision must be considered throughly by the data scientist, if a model is too simple it may not convey the actual complexities and thus will be less accurate than an advanced model with more overfitting. In terms of this report, I have decided that a simple linear regression is enough in order to get the bigger picture of Trump's short term impact on a companies stock. In spite of this, I cannot deny that a more complex data model with more overfitting may have yielded better results. But such model has not been built and tested in this research paper.\citep{foster} \\
 
 %Consider moving the "reflection" part of the report to some other chapter than theoretical framework.
 
-Underfitting is the opposite of overfitting is if we have a model that is under-fitting. This means that the model that was produced is not good enough to represent the fitted data.  In terms of the R-squared value, the lower it is the more the model will be under-fitting and the less useful the model will be in terms of representing the data. \\
+Underfitting is the opposite of overfitting. if a model has severe underfitting of the data, it  means that the model that was produced is not good enough to represent the fitted data.  In terms of the R-squared value, the lower it is the more the model will be under-fitting and the less useful the model will be in terms of representing the data (with exceptions, as previously explained). \\
 %https://www.pugetsystems.com/labs/hpc/Machine-Learning-and-Data-Science-Linear-Regression-Part-6-978/
 %https://cloudtweaks.com/2014/09/use-supervised-unsupervised-data-mining/
 %http://blog.minitab.com/blog/adventures-in-statistics-2/how-to-interpret-regression-analysis-results-p-values-and-coefficients
 
+
+%Include or not.. hard decision!!!
 According to the authors, an analyst should always know why any of the metrics are included and consider if there might be better metrics available for the model.
 R-squared values can help with determining the fit of a model, this value should be below the p-value in order to indicate a good fit. Other metrics that are included in the model is squared-error, which 
 
 This research paper will also use a residual-plot, in order to investigate the model's goodness of fit. Even if the model indicates a good fit according to our R-squared value and p-values. 
 
-R-squared is a value which can show us how close our data-points are to the fitted regression line.
-
-
-
-squared-error 
+%In this research paper only linear regression will be used due to time constraints and lack of practical knowledge to complete a more statistically advanced model. However, the aforementioned values will be discussed in the report, in order to examine the fit.
 
 %P-value
 %https://books.google.dk/books?id=64vt5TDBNLwC&pg=PA133&dq=p-value&hl=da&sa=X&ved=0ahUKEwiuutL_lYLYAhVCQJoKHbiTC50Q6AEITjAF#v=onepage&q=p-value&f=false
@@ -254,53 +256,54 @@ squared-error
 
 %Methodology start
 
+\subsection{Text mining}
+Text is according to Provost and Fawcett, often considered as "unstructured" data, and it therefore does not have the ordinary structure of data. Text can have a variety of lengths and words depend heavily on context. In addition to this, it can be very dirty e.g. grammatically incorrect. In order to conduct this analysis, I used the concept of "Bag of Words", where the data was treated as a collection of individual words. It ignored things such as grammar, order, sentence structure and punctuation. This makes it possible to measure the "frequency" of the words, which makes it possible to differentiate between word that were used a couple of times, with words that are frequently used in order to reveal a pattern. It is also important to filter the data, a term that is very rare, should not be presented if it is not important. The same applies to words that are too common and holds little value. \citep{foster}
+
+
+
+
 \section{Methodology}
 To answer the research questions two different types of analysis is presented\\
 
 
-Furthermore,  the CRISP framework has been used in a modified fashion, in order to better illustrate the context of this research paper.\\
+Furthermore,  the CRISP framework has been used in a slightly modified fashion in order to better illustrate the context of this research paper.\\
 
 \begin{figure}[H] %We begin our figure and want it to stay H(ere)
 	\centering %We want to center the figure
 \includegraphics [scale= .95]  {CRISP.PNG}    %Include our ijmage with a height and location of img.
-	\caption[Optional caption] {real, local caption for refrence}
+	\caption[Optional caption] {CRISP framework, \citep{foster}}
 	\label{fig:wordcloudBliz}
 
 \end{figure}
 
 
-The model serves to illustrate how the data was processed throughout the project in order to yield a final result/answer to the research questions. The model is iterative and serves to explore the Twitter data, so a better
-understanding of the data can be reached. This process has been consciously iterated throughout the project.
+The model serves to illustrate how the data was processed throughout the project in order to yield a final result/answer to the research questions. The model is iterative and explores the Twitter data, so a better understanding of the data can be reached. "Business understanding" is in this context the overall problem formulation and research questions that we wish answered. For every iteration, a deeper understanding of the data is achieved, which affects the understanding of the overall research framework.
+Data Understanding is how we collect the data from raw material and build a solution, it is therefore essential to critique your data and see what strengths and weaknesses that the data has. It can also be relevant to estimate the cost of the data, especially in a business context. However, for the purposes of this specific research paper, the economical aspect of data collection such as Cost/benefit won't be explored. Due to the iterative nature of the CRISP framework, different solutions may change the direction of the analysis. The essential part to take away from this, is that we use data understanding in order to get a deeper understanding of our data and thus discover what the structure of the data is and how it can be used to "solve" what in this research paper is our business problem/research questions. \\ \\
+"Data preparation" is where we merge, cleanse and integrate multiple data sources. In this research paper, Alteryx has been used in order to prepare our data, by merging and filtering, which I will elaborate on later in the paper. \\
 
-"Business understanding" is in this context the overall problem formulation and research questions that we wish answered. For every iteration a deeper understanding of the data is achieved, which affects the understanding of the overall research framework.
 
-Data Understanding is how we collect the data from raw material and build a solution, it is therefore essential to critique your data and see what strengths and weaknesses that the data has. It can also be relevant to estimate the cost of the data, especially in a business context. However, for the purposes of this specific research paper, the economical aspect of data collection such as Cost/benefit won't be explored. Due to the iterative nature of the CRISP framework, different solutions may change the direction of the analysis. The essential part to take away from this, is that we use data understanding in order to get a deeper understanding of our data and thus discover what the structure of the data is and how it can be used to "solve" what in this research paper is our business problem/research questions.
+"Modelling" was done with the help of the visual analytics tool  "Tableau", this makes it easier to explore and understand the patterns presented in the data. It has been a very closely fit process together with data understanding, in order to achieve the best results from "good" data. In this case, usable data that can answer our research questions, by  preparing it accordingly, so that frontend programs can be used in order to visualize findings. \\ \\ Modelling is what we end up with, it is here our overall "model" is made which captures patterns and regularities within the data. It is the stage where most data mining techniques are applied in order to create a model that is usable.\\
 
-"Data preparation" is where we merge, cleanse and integrate multiple data sources. In this research paper, Alteryx has been used as shown in Table 1 later in the report.
-"Modelling has used Tableau, which is a visual analytics tool. This makes it easier to explore and understand the patterns presented in the data. It has been a very closely fit process together with data understanding, in order to achieve the best results of "good" data (In this case, usable data that can answer our research questions)  and how to prepare it (So that frontend programs can be used in order to visualize  findings) \\
-
-Modelling is what we end up with, it is here our overall "model" is made which captures patterns and regularities within the data. It is the stage where most data mining techniques are applied in order to create a model that is usable.
-
-"Evaluation" Here we evaluate, whether the data model that has been built answers the overall research questions. After the model has been evaluated and validated, the model will go through "deployment", which in this sense will be the final conclusion to
+ "Evaluation"  is the stage where the data scientists tests whether the data model that has been built answers the overall research questions - and if the model has a good fit, so that it can be used without showing misleading correlations. After the model has been evaluated and validated, the model will go through "deployment", which in this sense will be the final conclusion to
 the research questions.\\
 
 
 \subsection{Process of Handling Data}
 
-I have developed the following model, to illustrate how I have used Alteryx and Tableau in order to build a model. I have also attempted to illustrate how I used the CRISP model here, by determining if a given model is satisfactory. If not, I go back to the drawing board and reconsider what data I have and how I can prepare it in Alteryx, so that I can build a new model through the next iteration.
+I have developed the following model, to illustrate how I have used the analytics tools:  Alteryx and Tableau, in order to build a model. I have also attempted to illustrate how I used the CRISP model here, by determining if a given model is satisfactory. If not, I go back to the drawing board and reconsider what data I have and how I can prepare it in Alteryx, so that I can build a new model through the next iteration.
 
 
 
 \begin{figure}[H] %We begin our figure and want it to stay H(ere)
 	\centering %We want to center the figure
 \includegraphics [scale= .85]  {SygModel.PNG}    %Include our ijmage with a height and location of img.
-	\caption[Optional caption] {real, local caption for reference}
+	\caption[Optional caption] {Model of my process of handling data}
 	\label{fig:wordcloudBliz}
 
 \end{figure}
 
 
-Throughout this project, I have attempted numerous models, most of which were discarded. Such as determining which fake news trump tweets most about, because I did not feel it answered the overall research question further.
+Throughout this project, I have attempted numerous models, most of which were discarded. Such as determining which news channels trump tweets most about, due to limiting the scope of the research paper.
 
 
 
@@ -320,82 +323,55 @@ Throughout this project, I have attempted numerous models, most of which were di
 %This tool helps with visual data representations in a 
 %dynamic environment, where several datasets can be
 %joined in order to create a comprehensive data solution.
- To summarize, Table 1 shows the purpose and use of each datamining tool used in this research paper: 
-
-
-\begin{table}[H]
-\centering
-\caption{My caption}
-\label{my-label}
-\begin{tabular}{|l|l|l|l|l|}
-\hline
-\rowcolor[HTML]{656565} 
-{\color[HTML]{000000} \textbf{Tool:}} & {\color[HTML]{000000} \textbf{Purpose:}} & \multicolumn{3}{l|}{\cellcolor[HTML]{656565}{\color[HTML]{000000} \textbf{Use:}}} \\ \hline
-\rowcolor[HTML]{BBDAFF} 
-\cellcolor[HTML]{BBDAFF}{\color[HTML]{000000} } & \cellcolor[HTML]{BBDAFF}{\color[HTML]{000000} } & \multicolumn{3}{l|}{\cellcolor[HTML]{BBDAFF}{\color[HTML]{000000} }} \\
-\rowcolor[HTML]{BBDAFF} 
-\cellcolor[HTML]{BBDAFF}{\color[HTML]{000000} } & \cellcolor[HTML]{BBDAFF}{\color[HTML]{000000} } & \multicolumn{3}{l|}{\cellcolor[HTML]{BBDAFF}{\color[HTML]{000000} }} \\
-\rowcolor[HTML]{BBDAFF} 
-\multirow{-3}{*}{\cellcolor[HTML]{BBDAFF}{\color[HTML]{000000} \textbf{Alteryx}}} & \multirow{-3}{*}{\cellcolor[HTML]{BBDAFF}{\color[HTML]{000000} \begin{tabular}[c]{@{}l@{}}Data Analytics tool that \\ provide data mining solutions\\  by helping with data \\ cleansing and integration \\ of multiple sources.\end{tabular}}} & \multicolumn{3}{l|}{\multirow{-3}{*}{\cellcolor[HTML]{BBDAFF}{\color[HTML]{000000} \begin{tabular}[c]{@{}l@{}}Lorem ipsumLorem ipsumLorem \\ ipsumLorem ipsum\\ Lorem ipsumLorem ipsumLorem ipsum\end{tabular}}}} \\ \hline
-\rowcolor[HTML]{BBDAFF} 
-\cellcolor[HTML]{BBDAFF}{\color[HTML]{000000} } & \cellcolor[HTML]{BBDAFF}{\color[HTML]{000000} } & \multicolumn{3}{l|}{\cellcolor[HTML]{BBDAFF}{\color[HTML]{000000} }} \\
-\rowcolor[HTML]{BBDAFF} 
-\cellcolor[HTML]{BBDAFF}{\color[HTML]{000000} } & \cellcolor[HTML]{BBDAFF}{\color[HTML]{000000} } & \multicolumn{3}{l|}{\cellcolor[HTML]{BBDAFF}{\color[HTML]{000000} }} \\
-\rowcolor[HTML]{BBDAFF} 
-\multirow{-3}{*}{\cellcolor[HTML]{BBDAFF}{\color[HTML]{000000} \textbf{Tableau}}} & \multirow{-3}{*}{\cellcolor[HTML]{BBDAFF}{\color[HTML]{000000} \begin{tabular}[c]{@{}l@{}}This tool helps with visual\\ data representation.\end{tabular}}} & \multicolumn{3}{l|}{\multirow{-3}{*}{\cellcolor[HTML]{BBDAFF}{\color[HTML]{000000} \begin{tabular}[c]{@{}l@{}}Lorem ipsumLorem ipsumLore\\ m iLorem ipsumpsumdasdLo\\ remLorem ipsum ipsum\end{tabular}}}} \\ \hline
-\end{tabular}
-\end{table}
 
 
 \subsection{Data Acquisition and Dataset Description}
-The first datasets consists of Twitter data on Trump's primary twitter channel.  This dataset will mainly be used to analyze Trump and his behavior on Twitter.
+The first datasets consists of Twitter data on Trump's primary twitter channel.  This dataset will mainly be used to analyze Trump and his behavior on Twitter. The strengths of this dataset comes from the fact that all the tweets made by Trump has been recorded, which can effectively be used to analyze his behaviour, as when he posted negative things about Lockheed-Martin. The dataset contains information about the date, what was in the tweet, how many retweeted and favorited the tweet, as well as the source of the tweet. (e.g. Android, Iphone). The one fundamental weakness of this dataset, is that it can be hard to determine if Trump was really the one, who made all of the Tweets, and not people from his political campaign team.\\
 
-The second dataset was collected from Nasdaq and is used to collect information about the stock price of lockheed-martin, which is a company that Trump tweeted negatively about. 
+The second dataset was collected from Nasdaq and is used to collect information about the stock price of lockheed-martin, which is a company that Trump tweeted negatively about. The strength of this dataset is that the dataset contains complete historical data, which makes it possible to make a correlation between this data and what Trump tweeted about. This also means that this particular dataset does not have any significant, if any, weaknesses.\\
 
-The third dataset is collected through Sentione and will be used to analyze the sentiment towards Trump's campaign. Ranging from before his inauguration, until 02/11/2017. 
-
+In terms of reliability and validity, both datasets are collected from trusted, unbiased sources. The Trump Dataset was retrieved directly from his Twitter page and thus have a very high reliability and validity. 
 
 \section{Results}
-In this section of the research paper, I will go through the results of my datamining and discuss it in relation to the research question, and thus explain which insights I came across during my datamining, in order to create a meaningful discussion regarding Donald J. Trump's behaviour and impact on the stock prices of companies. The result section will be built around the CRISP framework, in order to better illustrate the process of my datamining.
+In this section of the research paper, the results and insights of the datamining will be presented. The results will make it possible to start a meaningful discussion regarding Donald J. Trump's behaviour and impact on the stock prices of companies. Furthermore, the result section will be built around the CRISP framework, in order to better illustrate the process of the datamining.
 
 \subsection{Business understanding and Data Understanding}
-The understanding of both the overall research questions / Problem statement and the data was a very iterative process and thus is hard to document in a research paper, therefore my understanding will mostly be reflected in the following sections, where my ideas and reflections will be discussed.  And hopefully create a reflection of how I arrived at the understanding of both my research questions and the data. \\
+The understanding of the research questions and the data was an iterative process and is therefore hard to document in a research paper. As a result of that, the data understanding will be a part of the remaining sections ,where I will document my reflections and understanding of the research questions and data.  \\
 
-However, I would like to elaborate on the Data Understanding part, as this section includes evaluating the strengths and weaknesses of the data. In this research paper, Mostly data collected from Trump's twitter account has been collected, together with data on various stock prices on companies.  As mentioned by Provost and Fawcett, there is rarely an exact match between the overall problem and the data, thus this has to be kept in mind when reading the next sections. Other factors that may have contributed to the changes in stock prices from the analyzed companies is not within the scope of this research paper, nor is it in the datasets collected. Thus, this can be considered the weakness of the data. The strengths of the data however, is that there is enough variables within the dataset in order to make an analysis on Trump's behaviour, in addition, to be able to compare it to stock prices.
+%Consider moving up to data description
+However, it is important to elaborate on the data understanding part, as this section includes evaluating the strengths and weaknesses of the data. In this research paper, Mostly data collected from Trump's twitter account has been collected, together with data on various stock prices on companies.  As mentioned by Provost and Fawcett, there is rarely an exact match between the overall problem and the data, thus this has to be kept in mind when reading the next sections. Other factors that may have contributed to the changes in stock prices from the analyzed companies is not within the scope of this research paper, nor is it in the datasets collected. Thus, this can be considered the weakness of the data. The strengths of the data however, is that there is enough variables within the dataset in order to make an analysis on Trump's behaviour, in addition, to be able to compare it to stock prices.
 
 \subsection{Data Preparation}
-In order to prepare the Datasets from Twitter and Sentione, I used a datamining tool called "Alteryx", which deals with the backend part of the data analysis. This tool was used to filter my data and join the relevant tables with each other, in order to make a comprehensive analysis. Data that was filtered out was things such as "Twitter ID" and "URL", as these were not needed for the direction I was going for. \\
+In order to prepare the datasets from Twitter and Nasdaq, a datamining tool called "Alteryx" was used, which deals with the backend part of the data analysis. This tool was used to filter the data and join the relevant tables with each other, in order to make a comprehensive analysis. Data that was filtered out was fields such as "Twitter ID" and "URL", as these were not needed to answer the research questions. \\
 
+One use of Alteryx was to do text-mining, as explained in the conceptual framework, is a very dirty and unstructured form of big data. While text-mining, it is important to keep in mind the context of the text (For example, what does Trump mean when he tweet "Crooked" a lot). Alteryx was used to find the frequency of the text, which shows how often a word showed up in the dataset.  \\
 
-One use of Alteryx was to do text-mining, which by nature is a very dirty and unstructured form of Big Data. While text-mining, it is important to keep in mind the context of the text (For example, what does Trump mean when he tweet "Crooked" a lot). Alteryx was used to find the frequency of the text, which shows how often a word showed up in the dataset.  \\
-
-Figure X shows an algorithm created in Alteryx that allows the creation of word-clouds. This Algorithm filters the dataset, so it only presents the text values. Furthermore, the algorithm removes empty data entries as well as other noise from the data. (e.g. ! : ; ). Finally, the algorithm separates the sentences with new lines, so that every word can be counted by number of occurrence, this data can then be put into the Tableau software in order to create a WordCloud.
-
+Figure 4 shows an algorithm created in Alteryx that allows the creation of "word-clouds". This Algorithm filters the dataset, so it only presents the text values, generating our "bag of words". Furthermore, the algorithm removes empty data entries as well as other noise from the data. (e.g. ! : ; ). Finally, the algorithm separates the sentences into new lines, so that every word can be counted by number of occurrence, resulting in the frequency of the words. Finally, the data can be put into the Tableau software in order to create a WordCloud.
 
 
 \begin{figure}[H] %We begin our figure and want it to stay H(ere)
 	\centering %We want to center the figure
 \includegraphics [scale= .65]  {TrumpWordCloudAlteryxFinal.PNG}    %Include our ijmage with a height and location of img.
-	\caption[Optional caption] {real, local caption for refrence}
+	\caption[Optional caption] {Alteryx algorithm used to produce a word-cloud}
 	\label{fig:wordcloudBliz}
 
 \end{figure}
 
 \subsection{Modelling, Evaluation and Deployment}
-This section contains the models that I have produced with Tableau, which is the product i used to make my visual data analytics. In this section I will use the model to answer the research questions. \\
+This section contains the models that I have produced with Tableau, the models will be used to answer the research questions. \\
 
-In order to answer the first research question, regarding Trump's behaviour before and after he announced his presidency, I used text-mining in order to build wordcloud, which shows which words he used frequently and thus can reveal something about his behaviour. The first model I want to show, is one that illustrates Trump's most used words before his announcement of candidacy.
+In order to answer the first research question regarding Trump's behaviour before and after he announced his presidency, I used text-mining. The result of the text-mining was a word-cloud, which showed which words he used frequently and thus revealed something about his behaviour. The first model illustrates Trump's most used words before his announcement of candidacy.
 
 
 \begin{figure}[H] %We begin our figure and want it to stay H(ere)
 	\centering %We want to center the figure
 \includegraphics [scale= .45]  {TrumpBeforeAnnouncementWordFinal}    %Include our ijmage with a height and location of img.
-	\caption[Optional caption] {real, local caption for refrence}
+	\caption[Optional caption] {Donald Trump's frequently used words, before announcement of candidacy}
 	\label{fig:wordcloudBliz}
 
 \end{figure}
 
-As Figure X shows, Trump was invested in the politics of USA before his announcement as president, having frequently used words such as "obamacare, president, government, barackobama". Furthermore, it can be seen that Trump's tweet weren't all about politics, but also about "business" and his TV-shows such as the apprentice (apprenticenbc). Therefore, it would be interesting to see a word-cloud of his behaviour after he announced his candidacy. 
+As Figure 5 shows, Trump was invested in politics before his announcement as president, his frequently used words include "obamacare, president, government, barackobama". Furthermore, Trump's tweet weren't all about politics, but also about "business" and his TV-shows such as the apprentice (apprenticenbc). Therefore, it would be interesting to see a word-cloud of his behaviour after he announced his candidacy. 
 
 
 \begin{figure}[H] %We begin our figure and want it to stay H(ere)
@@ -406,22 +382,23 @@ As Figure X shows, Trump was invested in the politics of USA before his announce
 
 \end{figure}
 
-Here we see a similar, yet different story. Trump's tweets that were mostly unrelated to politics no longer showed up after filtering the word count, as they did in the previous model. Thus, we can see that Trump started focusing a lot more on politics and "fake news". Frequently using words such as "Hillary", "America", "media". We can also see, how Trump used twitter to further spread the nicknames of his political opponents, such as "crooked". \\
+Here we see a similar, yet different story. Trump's tweets that were a mixed bag between business and politics no longer showed words relating to business and his tv-series,  as the  previous model did. Thus, we can see that Trump started focusing a lot more on politics and "fake news". Frequently using words such as "Hillary", "America", "media". We can also see, how Trump used twitter to further spread the nicknames of his political opponents, such as "crooked". Which in this context was a nickname he gave Hillary Clinton during his political campaign.\\
 
-An interesting factor in this regard is to investigate the second research questions, so we can analyze how his behaviour on Twitter affected the "external environment", such as the stock prices of companies.  I created a model which illustrates how a negative tweet from Donald J. Trump, may affect the stock price of LockHeed Martin aircraft company.
-
+An interesting factor in this regard is to investigate the second research questions, so we can analyze how his behaviour on Twitter affected the "external environment", such as the stock prices of companies. I created a model which illustrates how a negative tweet from Donald J. Trump, affect the stock price of Lockheed Martin, which is a large aerospace company. The model on figure 7, has the days in december 2016 on the x-axis and the close-price of the lockheed martin stock on the y-axis.
 
 \begin{figure}[H] %We begin our figure and want it to stay H(ere)
 	\centering %We want to center the figure
 \includegraphics [scale= .45]  {lockfinal.png}    %Include our ijmage with a height and location of img.
-	\caption[Optional caption] {real, local caption for refrence}
+	\caption[Optional caption] {Trump tweet's affect on Lockheed Martin stock price}
 	\label{fig:wordcloudBliz}
 
 \end{figure}
 
-Figure X shows that the stock price before Trump posted a negative tweet, regarding his dissatisfaction with the F-35 program and how he would save money on military by cutting costs in the area that Lockheed Martin serviced the US.Army. As the graph shows, the closing price the day Trump made his tweet was 255.49 USD, but quickly fell to 249.69 USD the following day. Furthermore, later in the same month, Trump tweeted again that he would change supplier to Boeing, causing the stock price to fall from 252.18 to 247.34. \\
+Figure 7 shows the stock price of the company, before Trump posted a negative tweet and the after effects of the tweet. The tweets were regarding his dissatisfaction with the F-35 program and how he would save money on military by cutting costs. This is the area in which Lockheed Martin services the U.S. army and thus likely has an effect on the company's stock price. \\
 
-If we go further from this standpoint, we can make a linear regression of the month of December, where Trump made these tweets. The linear trend line shows a negative slope of -0.6 USD in close price every day, which shows that Trump's tweets did indeed have a negative impact on the stock prices of Lockheed Martin. Furthermore, it can be said that the model has an R-squared value of 0.725, which indicates that the goodness-of-fit for the datamodel is more or less decent. However, it should always be kept in mind as mention in the section "Theoretical Framework" that even a good R-squared value, may not always mean that you have a good model. \\
+As the graph shows the closing price on december 12th, which is the day Trump made his first tweet, was 255.49 USD. This price quickly fell to 249.69 USD the following day. Furthermore, later in the same month, Trump tweeted that he would change supplier to Boeing, causing the stock price to fall from 252.18 to 247.34. \\
+
+Going further from this standpoint,  a linear regression was made of the stock price in the month of December. The linear trend line shows a negative slope of -0.6 USD in close price every day, which shows that Trump's tweets did indeed have a negative impact on the stock prices of Lockheed Martin. Furthermore, the model has an R-squared value of 0.725, which indicates that the goodness-of-fit for the datamodel is more or less decent. However, it should always be kept in mind as mention in the section "Conceptual Framework" that even a good R-squared value, may not always mean that you have a good model. Therefore, I also factored in my own rational conclusions from seeing the overall trend in the datapoints.\\
 
 The above findings makes it interesting and relevant to expand our scope and look at the following month, to see if Trump's tweets' also affected the month of January 2017.
 
@@ -433,24 +410,33 @@ The above findings makes it interesting and relevant to expand our scope and loo
 
 \end{figure}
 
-It becomes clear that Trump's tweets' only have an initial effect on the market, as the stock quickly stabilized itself in the following month. However, one most keep in mind that this model has a very bad fit for our data, with an R-squared value of > 0.1, which means that it doesn't fit our observations in the data very well. 
+It becomes clear that Trump's tweets' only have an initial effect on the market, as the stock quickly stabilized itself in the following month. However, one most keep in mind that this model has a very bad fit for our data, with an R-squared value of > 0.1, which means that it doesn't fit our observations in the data very well. In spite of this, it is easy to see that the stock price in January is not as volatile, as it is in December.
 
 
+%\section{To be added later or thrown away}
 
+%Furthermore, by the use of text-mining and using an algorithm, that sorts comments into different classifications "positive", "negative", "neutral". It is possible to determine, whether the reaction of Trump's presidency was overall positive or negative. \\
 
-\section{To be added later or thrown away}
-
-Furthermore, by the use of text-mining and using an algorithm, that sorts comments into different classifications "positive", "negative", "neutral". It is possible to determine, whether the reaction of Trump's presidency was overall positive or negative. \\
-
-The results show that Trump's initial support at the announcement of his presidency was overall positive, with very few negative comments.  The negative comments grew exponentially, as Trump got closed to winning his presidency, peaking around the time of his inauguration at xx/xx/xxxx
+%The results show that Trump's initial support at the announcement of his presidency was overall positive, with very few negative comments.  The negative comments grew exponentially, as Trump got closed to winning his presidency, peaking around the time of his inauguration at xx/xx/xxxx
 
 
 \section{Discussion}
-I will now discuss the results and reflect upon them. As we saw in the models, Trump's tweet had a short-term negative effect on the Lockheed Martin stock in the month of December. This result was unsurprising, because he had won the election at that point and it was therefore likely that he could have a high impact on the F-35 program. In contrast though.
+I will now discuss the results and reflect upon them. 
 
-\subsection{Ethical discussion}
+\subsection{Answer to research questions}
 
-In order to discuss the findings in this research paper in relation to an important topic of Data Science, I will discuss what ethical issues that datamining and datascience have on society. According to Fawcett, there is a correlation between good business decisions and the use of data to base them on. As an example, a lot of information about Trump's behaviour was data-mined, revealing what topics he was interested in, what his impact is on his external environment etc. In Trump's case, he was mostly marketing his own "brand", but it is a concern, if such data was used on consumers without their consent and thus, raises questions about privacy. Companies will want to dig more and more into data about their consumers in order to reveal their behaviour and use it to increase the value in their business. This concern of privacy is a big issue, but is getting continuously regulated. As an example, a new personal data regulation in EU will help secure the privacy of consumers. http://ec.europa.eu/justice/data-protection/
+\textit{What was trump's behaviour on social media, prior to his announcement of his presidency. And how did it change, during and after his political campaign.}\\
+The two word-cloud produced actionable insights into Donald Trump's behaviour on social media before and after his announcement of presidency. It is clear that he was more focused on his life as a businessman, before his announcement. He tweeted a lot about  various tv-series, which he was involved in, as well as more business-oriented and economical topics. From this point of view it is very clear that Trump is a very career-driven person, who uses social media heavily to promote whatever endeavor he is involved, or interested in. After he announced his run for presidency, the results showed that he shifted to a political focus as expected. Looking at the results at the second word-cloud, it is very clear that he ran his political campaign in an unusual manner. Many of his most frequently used words, were found to be negative nicknames for his opponents. A prime example of this, as was seen in the results section, is how Trump tweeted "crooked" a lot, aimed towards his main political opponent, Hillary Clinton. \\ 
+
+I believe that Trump found out about the strength of social media, in terms of using it as a base for distributing news to a large amount of people. The core of his behaviour before and after his announcement did not change, in both cases he forwarded his own self interest. What shifted was the target of his behaviour and it is thus clear that the use of data in the modern age, is very much capable of analyzing patterns in a persons behaviour. This raises numerous concerns, which I will touch upon later in this discussion. \\
+
+\textit{How does Trump's behaviour affect the stock prices of companies ?} \\
+In addition to this, the second research question was answered. The resulting model of this research question, illustrated that something as small as a few megabytes of data in "the cloud", is enough to make an impact on the real world. This is an obvious fact to most, when the one tweeting is the president of the united states and that tweet contains information that make a large dent in a company's cash-flow.  Nevertheless, it is an interesting aspect of data science, to be able to find such correlations between two different datasets. \\
+
+\textit{What does using datascience to analyze Donald Trump's behaviour mean from an ethical standpoint?}\\
+ In order to discuss the findings in this research paper in relation to an important topic of Data Science, I will discuss what ethical issues that datamining and datascience have on society. According to Fawcett and Provost, there is a correlation between good business decisions and the use of data to base them on. As an example, a lot of information about Trump's behaviour was data-mined, revealing what topics he was interested in, what his impact is on his external environment etc. In Trump's case, he was mostly marketing his own "brand", but it is a concern, if such data was used on consumers without their consent and thus, raises questions about privacy. Companies will want to dig more and more into data about their consumers in order to reveal their behaviour and use it to increase the value in their business. This concern of privacy is a big issue, but is getting continuously regulated. As an example, a new personal data regulation in EU will help secure the privacy of consumers. http://ec.europa.eu/justice/data-protection/
+
+
 
 \subsection{Learning reflection}
 This research paper has helped me learn about the thought-process of a datascientist and how iterative the process is, as illustrated by the CRISP model. Unfortunately, I was unable to go as in-depth with the analysis as I wanted to, due to my limited knowledge of statistics and machine learning. In spite of all this, I do believe I arrived at some insights which allowed me to answer the research questions. In addition to this, the course and this research paper has taught me a lot about different analytics tools, which has given me a broad perspective of where I want to develop my skills in the future. Which for my case was in the realm of machine learning.
@@ -471,9 +457,6 @@ This research question was answered using linear regression and data about a com
 \textit{What does using datascience to analyze Donald Trump's behaviour mean from an ethical standpoint?}\\
  
 From an ethical standpoint, it was concluded that the possibility of using datamining and datascience to reveal the behavior and impact that an individual can have on social media, is a threat to the privacy in society. It was concluded that such areas must be regulated in order to protect the rights of privacy. Using regulations such as the personal data regulation in EU.  
-
-
-\citep{blizzcon}
 
 %End of report__________________________________
 
