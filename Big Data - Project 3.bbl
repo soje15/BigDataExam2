@@ -1,0 +1,19 @@
+\begin{thebibliography}{xx}
+
+\harvarditem{{Blizzard Entertainment}}{2017}{blizzcon}
+{Blizzard Entertainment}  \harvardyearleft 2017\harvardyearright , `Blizzcon'.
+\newblock \mbox{[Last Accessed: December 1st 2017]}.
+\newline\harvardurl{https://blizzcon.com/en-us/event-info}
+
+\harvarditem{McAfee \harvardand\ Brynjolfsson}{2012}{velocity}
+McAfee, A. \harvardand\ Brynjolfsson, E.  \harvardyearleft
+  2012\harvardyearright , `Big data:the management revolution'.
+\newblock \mbox{[Last Accessed: December 1st 2017]}.
+\newline\harvardurl{http://tarjomefa.com/wp-content/uploads/2017/04/6539-English-TarjomeFa-1.pdf}
+
+\harvarditem{Provost \harvardand\ Fawcett}{2013}{foster}
+Provost, F. \harvardand\ Fawcett, T.  \harvardyearleft 2013\harvardyearright ,
+  {\em Data Science for Business: What You Need To Know About Data Mining And
+  Data-Analytic Thinking}, O'Reilly Media, Inc.
+
+\end{thebibliography}

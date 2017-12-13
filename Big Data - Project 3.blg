@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Big Data - Project 3.aux
+The style file: agsm.bst
+Database file #1: mybib.bib
+You've used 3 entries,
+            2909 wiz_defined-function locations,
+            654 strings with 5193 characters,
+and the built_in function-call counts, 12062 in all, are:
+= -- 1996
+> -- 118
+< -- 0
++ -- 943
+- -- 35
+* -- 1016
+:= -- 2447
+add.period$ -- 5
+call.type$ -- 3
+change.case$ -- 41
+chr.to.int$ -- 3
+cite$ -- 3
+duplicate$ -- 46
+empty$ -- 82
+format.name$ -- 49
+if$ -- 2156
+int.to.chr$ -- 5
+int.to.str$ -- 0
+missing$ -- 4
+newline$ -- 16
+num.names$ -- 30
+pop$ -- 21
+preamble$ -- 1
+purify$ -- 45
+quote$ -- 0
+skip$ -- 34
+stack$ -- 0
+substring$ -- 2803
+swap$ -- 3
+text.length$ -- 42
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 10
+warning$ -- 0
+while$ -- 63
+width$ -- 0
+write$ -- 42

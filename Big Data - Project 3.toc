@@ -1,17 +1,21 @@
 \contentsline {section}{\numberline {1}Abstract}{1}{section.1}
 \contentsline {section}{\numberline {2}Introduction}{2}{section.2}
 \contentsline {subsection}{\numberline {2.1}Case introduction}{2}{subsection.2.1}
-\contentsline {section}{\numberline {3}Problem Formulation and Reserach questions}{3}{section.3}
-\contentsline {section}{\numberline {4}Theoretical Framework}{3}{section.4}
+\contentsline {section}{\numberline {3}Problem Formulation and Research Questions}{2}{section.3}
+\contentsline {subsection}{\numberline {3.1}Delimitations}{3}{subsection.3.1}
+\contentsline {section}{\numberline {4}Conceptual Framework}{3}{section.4}
 \contentsline {subsection}{\numberline {4.1}Supervised datamining}{3}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Linear regression and fitting}{3}{subsection.4.2}
-\contentsline {section}{\numberline {5}Methodology}{4}{section.5}
-\contentsline {subsection}{\numberline {5.1}My overall process of handling data}{6}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Data Acquisition and Dataset Description}{7}{subsection.5.2}
-\contentsline {section}{\numberline {6}Results}{7}{section.6}
-\contentsline {subsection}{\numberline {6.1}Business understanding and Data Understanding}{7}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Data Preperation}{8}{subsection.6.2}
-\contentsline {section}{\numberline {7}Modelling}{9}{section.7}
-\contentsline {section}{\numberline {8}To be added later}{12}{section.8}
-\contentsline {section}{\numberline {9}Discussion}{13}{section.9}
-\contentsline {section}{\numberline {10}Conclusion}{13}{section.10}
+\contentsline {subsection}{\numberline {4.2}Linear regression and fitting}{4}{subsection.4.2}
+\contentsline {section}{\numberline {5}Methodology}{5}{section.5}
+\contentsline {subsection}{\numberline {5.1}Process of Handling Data}{6}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Data Acquisition and Dataset Description}{8}{subsection.5.2}
+\contentsline {section}{\numberline {6}Results}{8}{section.6}
+\contentsline {subsection}{\numberline {6.1}Business understanding and Data Understanding}{8}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Data Preparation}{8}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Modelling, Evaluation and Deployment}{9}{subsection.6.3}
+\contentsline {section}{\numberline {7}To be added later or thrown away}{12}{section.7}
+\contentsline {section}{\numberline {8}Discussion}{13}{section.8}
+\contentsline {subsection}{\numberline {8.1}Ethical discussion}{13}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Learning reflection}{13}{subsection.8.2}
+\contentsline {section}{\numberline {9}Conclusion}{13}{section.9}
+\contentsline {section}{\numberline {A}\\Stests}{16}{appendix.A}
