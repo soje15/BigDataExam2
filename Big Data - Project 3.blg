@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Big Data - Project 3.aux
 The style file: agsm.bst
 Database file #1: mybib.bib
-You've used 2 entries,
+You've used 5 entries,
             2909 wiz_defined-function locations,
-            649 strings with 5112 characters,
-and the built_in function-call counts, 7758 in all, are:
-= -- 1269
-> -- 94
+            663 strings with 5458 characters,
+and the built_in function-call counts, 15270 in all, are:
+= -- 2467
+> -- 166
 < -- 0
-+ -- 600
-- -- 28
-* -- 655
-:= -- 1584
-add.period$ -- 3
-call.type$ -- 2
-change.case$ -- 27
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 31
-empty$ -- 56
-format.name$ -- 40
-if$ -- 1388
++ -- 1139
+- -- 49
+* -- 1245
+:= -- 3191
+add.period$ -- 8
+call.type$ -- 5
+change.case$ -- 68
+chr.to.int$ -- 5
+cite$ -- 5
+duplicate$ -- 77
+empty$ -- 137
+format.name$ -- 67
+if$ -- 2713
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 3
-newline$ -- 11
-num.names$ -- 20
-pop$ -- 15
+missing$ -- 7
+newline$ -- 24
+num.names$ -- 50
+pop$ -- 38
 preamble$ -- 1
-purify$ -- 30
+purify$ -- 75
 quote$ -- 0
-skip$ -- 22
+skip$ -- 53
 stack$ -- 0
-substring$ -- 1764
-swap$ -- 2
-text.length$ -- 28
+substring$ -- 3411
+swap$ -- 5
+text.length$ -- 70
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
+type$ -- 16
 warning$ -- 0
-while$ -- 42
+while$ -- 105
 width$ -- 0
-write$ -- 28
+write$ -- 68

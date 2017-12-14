@@ -14,8 +14,9 @@
 \contentsline {subsection}{\numberline {6.1}Business understanding and Data Understanding}{9}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}Data Preparation}{9}{subsection.6.2}
 \contentsline {subsection}{\numberline {6.3}Modelling, Evaluation and Deployment}{10}{subsection.6.3}
-\contentsline {section}{\numberline {7}Discussion}{14}{section.7}
-\contentsline {subsection}{\numberline {7.1}Answer to research questions}{14}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Learning reflection}{15}{subsection.7.2}
+\contentsline {section}{\numberline {7}Discussion}{13}{section.7}
+\contentsline {subsection}{\numberline {7.1}Answers to research questions}{13}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Learning reflection}{14}{subsection.7.2}
 \contentsline {section}{\numberline {8}Conclusion}{15}{section.8}
-\contentsline {section}{\numberline {A}\\Stests}{18}{appendix.A}
+\contentsline {section}{\numberline {A}\\Long-term effect on stock price}{17}{appendix.A}
+\contentsline {section}{\numberline {B}Source of Trump's tweets \\}{18}{appendix.B}
